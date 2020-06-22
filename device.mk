@@ -450,3 +450,8 @@ PRODUCT_USES_QCOM_HARDWARE := true
 SRC_AUDIO_HAL_DIR := hardware/qcom-caf/sm8150/audio
 SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/sm8150/display
 SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sm8150/media
+
+# Seamless transfer
+PRODUCT_PRODUCT_PROPERTIES += \
+    sys.fflag.override.settings_seamless_transfer=true
+
