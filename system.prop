@@ -54,3 +54,5 @@ wifi.interface=wlan0
 #youtube2160p
 sys.display-size=3840x2160
 
+ro.octavi.status=2.0 Official
+ro.octavi.maintainer=spkal01
